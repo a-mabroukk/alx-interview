@@ -6,7 +6,6 @@ def canUnlockAll(boxes):
     """method that determines if all the boxes can be opened"""
     n = len(boxes)
     visited = set()
-    visited.add(0)
     queue = deque([0])
 
     while queue:
