@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """Lockboxes"""
 
+from collections import deque
+
 
 def canUnlockAll(boxes):
     """method that determines if all the boxes can be opened"""
