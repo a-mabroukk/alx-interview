@@ -1,5 +1,9 @@
 #!/usr/bin/python3
+"""method"""
+
+
 def minOperations(n):
+    """Minimum Operations"""
     dp = [float('inf')] * (n + 1)
     if dp[i] < 1:
         return 0
